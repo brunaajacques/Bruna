@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-display: swap;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #2D364F;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+  flex-wrap: wrap;
+  z-index: 999;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 5px;
+}
+
+nav ul a div {
+  width: 100%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: montserratBold;
+  font-weight: 500;
+  padding: 8px 15px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00ADB5;
+}
+
+h1 {
+  font-family: montserratBold;
+  font-size: 31px;
+  color: #00ADB5;
+  text-align: justify;
+}
+
+h2 {
+  font-family: montserratBold;
+  font-size: 20px;
+  color: #141927;
+  text-align: justify;
+}
+
+h3 {
+  font-family: montserratRegular;
+  font-size: 16px;
+  color: #141927;
+  text-align: justify;
+}
+
+h4 {
+  font-family: montserratBold;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+}
+
+h5 {
+  font-family: montserratRegular;
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+}
+
+.btn_sample_nav {
+  background-color: #00ADB5;
+  color: white;
+  padding: 10px 16px;
+  font-family: montserratBold;
+  font-size: 18px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn_tradutor {
+  background-color: #2D364F;
+  color: white;
+  padding: 10px 16px;
+  font-family: montserratBold;
+  font-size: 18px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.section_QuemSomos {
+  background-color: #EEF2FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 64px 150px;
+  margin-top: 70px;
+  gap: 72px;
+}
+
+.img_2day_principal {
+  display: flex;
+  max-height: 160px;
+  max-width: 365px;
+  align-items: left;
+}
+
+.QuemSomos_Son {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 24px;
+}
+
+.section_Triangle {
+  background-color: #2D364F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #EEF2FF;
+}
+
+.section_NossaHistoria {
+  background-color: #2D364F;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 150px;
+  gap: 100px;
+}
+
+.section_NossaHistoria_text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 24px;
+}
+
+.section_NossaHistoria_subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section_missao_visao {
+  background-color: #EEF2FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 150px;
+  gap: 32px;
+}
+
+.section_missao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.section_missao_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section_visao {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.section_visao_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section_NossosValores {
+  background-color: #2D364F;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 150px;
+  gap: 150px;
+}
+
+.section_NossosValores_Text {
+  color: white;
+  font-family: montserratBold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section_OqueNosFazemos {
+  background-color: #EEF2FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 64px 150px;
+  gap: 32px;
+}
+
+.OqueNosFazemos_Son {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.img_startupLab,
+.img_outsourcing {
+  height: 120px;
+}
+
+.startupLab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.outsourcing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 150px;
+  background: #2D364F;
+  gap: 32px;
+}
+
+.img_footer {
+  display: flex;
+  height: 24px;
+}

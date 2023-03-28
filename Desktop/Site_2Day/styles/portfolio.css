@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-display: swap;
+}
+
+.section_agro {
+  background-color: #EEF2FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 150px;
+  gap: 32px;
+}
+
+.section_agro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.section_agro_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section_visao {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.section_visao_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
